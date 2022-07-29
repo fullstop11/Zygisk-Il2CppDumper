@@ -24,3 +24,5 @@ jobs:
       with:
         name: zygisk-il2cppdumper
         path: out/magisk_module_release/
+- name: Download a Build Artifact
+  uses: actions/download-artifact@v3.0.0
